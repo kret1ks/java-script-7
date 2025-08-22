@@ -1,27 +1,27 @@
 // Створити масив з трьох чисел. Змінити значення другого елемента масиву на 10.
 
-// const numbre = [1, 2, 3,]
-// numbre[1] = 10;
-// console.log(numbre);
+const numbre = [1, 2, 3,]
+numbre[1] = 10;
+console.log(numbre);
 
 
 
 // Створити масив із трьох рядків. Додати до масиву ще одну рядків.
 
-// let strings = ["яблуко, банан, груша"];
-// strings.push("ананас") //дивився на mdn
-// console.log(strings);
+let strings = ["яблуко, банан, груша"];
+strings.push("ананас") //дивився на mdn
+console.log(strings);
 
 
 // Створити скрипт який поверне суму всіх чисел в масиві.
 
-// let numbers = [5, 10, 20, 1, 4]
-// let suma = 0;
+let numbers = [5, 10, 20, 1, 4]
+let suma = 0;
 
-// for (const q of numbers){
-//         suma += q
-// }
-// console.log(suma);
+for (const q of numbers){
+        suma += q
+}
+console.log(suma);
 
 
 // Створити масив з 5-ти чисел. Вивести на екран всі елементи масиву за допомогою циклу for.
@@ -29,5 +29,35 @@
 const num = [5, 11, 22, 3, 1,]
 for (let i = 0; i < num.length; i += 1){
     console.log(num[i]);
-    
 }
+
+// Створити масив з 10-ти чисел. Знайти та вивести на екран максимальне значення з масиву.
+
+
+const num2 = [2, 3, 65, 22, 23, 21, 54, 75, 12, 1,]
+let max = num2[0]
+for(let i = 0; i < num2.length; i += 1){
+  if(num2[i] > max){
+    max = num2[i]
+  }
+    }
+    console.log(`максимальне значення в масиві ${max}`);
+    
+
+
+// Створити масив з 10-ти чисел. Знайти всі парні числа в масиві та вивести їх на екран.
+
+
+const masiv = [1, 2, 4, 5, 8, 12, 5, 10, 9, 20];
+
+for (let i = 0; i < masiv.length; i += 1) {
+    if (masiv[i] % 2 === 0) {
+        console.log(masiv[i]);
+    }
+}
+
+
+
+
+
+
